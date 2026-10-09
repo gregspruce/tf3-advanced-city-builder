@@ -1,0 +1,15 @@
+{
+    "authors": [
+        {
+            "name": "TangoEchoXray",
+            "role": "CREATOR"
+        }
+    ],
+    "description": "Proof of concept (v0). Adds an Advanced City Builder tool to Town > Tools: place a town with slider-controlled residential, commercial and industrial sizes (maximum configurable up to 200% of normal), an initial road angle range, a capacity scaling factor, and one cargo need per district (None, Random or a specific cargo).",
+    "name": "Advanced City Builder (v0)",
+    "summary": "Town placement tool with per-district sizes, road angles and cargo needs.",
+    "tags": [
+        "Script Mod"
+    ],
+    "url": ""
+}

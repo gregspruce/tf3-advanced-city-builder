@@ -1,0 +1,81 @@
+{
+    "modId": "advanced_city_builder",
+    "revision": 1,
+    "severityAdd": "None",
+    "severityRemove": "Warning",
+    "visible": true,
+    "cosmetic": false,
+    "params": [
+        {
+            "key": "acb_logging",
+            "name": "Diagnostic logging",
+            "tooltip": "Write Advanced City Builder diagnostics to the game log (stdout.txt, lines start with [ACB]). Leave Off unless you are troubleshooting.",
+            "uiType": "Button",
+            "values": [
+                "Off",
+                "On"
+            ],
+            "defaultIndex": 0,
+            "yearFrom": 0,
+            "yearTo": 0
+        },
+        {
+            "key": "acb_max_capacity",
+            "name": "Maximum town capacity",
+            "tooltip": "Largest size the district capacity sliders of the Advanced City Builder offer, as a percentage of the normal maximum (1600, the largest size of the game's Experimental Town Builder). Larger towns are slower to build and simulate.",
+            "uiType": "Button",
+            "values": [
+                "100%",
+                "125%",
+                "150%",
+                "200%"
+            ],
+            "defaultIndex": 0,
+            "yearFrom": 0,
+            "yearTo": 0
+        },
+        {
+            "key": "acb_growth_angle",
+            "name": "Organic street growth",
+            "tooltip": "How far the direction of new main streets may vary when towns grow, in degrees. Applies to ALL towns in the game (map editor and games), not only to towns placed with the Advanced City Builder. 0° keeps the game's default straight grid.",
+            "uiType": "Slider",
+            "values": [
+                "0°",
+                "2.5°",
+                "5°",
+                "7.5°",
+                "10°",
+                "12.5°",
+                "15°",
+                "17.5°",
+                "20°"
+            ],
+            "defaultIndex": 0,
+            "yearFrom": 0,
+            "yearTo": 0
+        },
+        {
+            "key": "acb_initial_angle",
+            "name": "Organic streets in new towns",
+            "tooltip": "The same for the first street layout of new towns created without the Advanced City Builder (for example the game's Town Builder), in degrees. Also the default of the Advanced City Builder's Initial Road Angle Range slider. 0° keeps the game's default straight grid.",
+            "uiType": "Slider",
+            "values": [
+                "0°",
+                "2.5°",
+                "5°",
+                "7.5°",
+                "10°",
+                "12.5°",
+                "15°",
+                "17.5°",
+                "20°"
+            ],
+            "defaultIndex": 0,
+            "yearFrom": 0,
+            "yearTo": 0
+        }
+    ],
+    "preRunScript": {
+        "fileName": "advanced_city_builder::/mod.script@preRunFn"
+    }
+}
