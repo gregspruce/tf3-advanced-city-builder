@@ -3,6 +3,10 @@
 All notable changes to the Advanced City Builder mod and its tooling.
 Format: [Keep a Changelog](https://keepachangelog.com/). Last Updated: 2026-10-05.
 
+## [Released] revision 1 - mod.io 6430702 (recorded 2026-10-09)
+- Published before the workspace history began; the project matches the installed mod.io copy. Release tag
+  `acb-r1`; public repository `tf3-advanced-city-builder` (release r1).
+
 ## [Unreleased]
 
 ### Added
